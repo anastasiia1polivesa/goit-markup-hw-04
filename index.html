@@ -28,7 +28,7 @@
           >
           <ul class="header-menu list">
             <li class="header-menu-item">
-              <a class="header-menu-link link link current" href="./index.html"
+              <a class="header-menu-link link current" href="./index.html"
                 >Studio</a
               >
             </li>
@@ -66,7 +66,7 @@
       <section class="section">
         <div class="container">
           <h1 class="section-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="section-button">Order Service</button>
+          <button type="button" class="section-button" data-modal-open>Order Service</button>
         </div>
       </section>
       <section class="priorities-section">
@@ -168,13 +168,12 @@
                 height="260"
                 alt="Mark Guerrero"
               />
-              <div class="social-list">
                <div class="name">
                 <h3 class="worker-name">Mark Guerrero</h3>
                 <p class="teamtext">Product Designer</p>
               </div>
-              <div class="social-media-list"> 
-              <ul class="team-block">
+              <div class="team-block"> 
+              <ul class="social-media list">
                 <li class="social-items">
                   <a
                     class="block-icons"
@@ -225,7 +224,6 @@
                 </li>
               </ul>
               </div>
-            </div>
             </li>
             <li class="team-section-card">
               <img
@@ -234,13 +232,12 @@
                 height="260"
                 alt="Tom Ford"
               />
-              <div class="social-list">
                 <div class="name">
                 <h3 class="worker-name">Tom Ford</h3>
                 <p class="teamtext">Frontend Developer</p>
               </div>      
-              <div class="social-media-list">        
-              <ul class="team-block">
+              <div class="team-block">        
+              <ul class="social-media list">
                 <li class="social-items">
                   <a
                     class="block-icons"
@@ -291,7 +288,6 @@
                 </li>
               </ul>
               </div>
-            </div>
             </li>
             <li class="team-section-card">
               <img
@@ -300,13 +296,12 @@
                 height="260"
                 alt="Camila Garcia"
               />
-              <div class="social-list">
                 <div class="name">
                 <h3 class="worker-name">Camila Garcia</h3>
                 <p class="teamtext">Marketing</p>
               </div>    
-              <div class="social-media-list">          
-              <ul class="team-block">
+              <div class="team-block">          
+              <ul class="social-media list">
                 <li class="social-items">
                   <a
                     class="block-icons"
@@ -357,7 +352,6 @@
                 </li>
               </ul>
               </div>
-            </div>
             </li>
             <li class="team-section-card">
               <img
@@ -366,13 +360,12 @@
                 height="260"
                 alt="Daniel Wilson"
               />
-              <div class="social-list">
                 <div class="name">
                 <h3 class="worker-name">Daniel Wilson</h3>
                 <p class="teamtext">UI Designer</p>
               </div>
-              <div class="social-media-list">           
-              <ul class="team-block">
+              <div class="team-block">           
+              <ul class="social-media list">
                 <li class="social-items">
                   <a
                     class="block-icons"
@@ -423,7 +416,6 @@
                 </li>
               </ul>
             </div> 
-            </div>
             </li>
           </ul>
         </div>
@@ -464,7 +456,7 @@
             <li class="customer-item">
               <a class="customer-icon" href="" target="_blank">
                 <svg class="section-mark" width="104" height="56">
-                  <use href="../images/icons.svg#icon-Logo4"></use>
+                  <use href="./images/icons.svg#icon-Logo4"></use>
                 </svg>
               </a>
             </li>
@@ -545,5 +537,17 @@
         </div>
       </div>
     </footer>
+    
+    <div class="backdrop is-hidden" data-modal>
+      
+      <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+         <svg class="close-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+         </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
