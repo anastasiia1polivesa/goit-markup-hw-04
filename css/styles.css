@@ -130,7 +130,8 @@ link {
   padding: 24px 0;
   display: block;
 }
-.header-menu-link {
+
+.light-text {
   color: #404bbf;
 }
 
@@ -576,7 +577,8 @@ link {
   overflow: hidden;
 }
 
-.portfolio:hover .app-hover-text {
+.portfolio:hover,
+.portfolio:focus .app-hover-text {
   transform: translateY(0%);
 }
 
